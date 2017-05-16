@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import './App.css';
-var a = "25.00"
-var b = "6.45"
-var result = parseFloat(a) + parseFloat(b);
+let a = "25.00"
+let b = "6.45"
+let result = parseFloat(a) + parseFloat(b);
 
 class Footer extends Component {
+
+
   render() {
     return (
       <div>
